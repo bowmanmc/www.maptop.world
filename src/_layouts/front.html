@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+        {% include svg.html %}
+
+        {% include header.html %}
+
+        <main>
+            <div class="content">
+                <h2>
+                    MapTop is mapping software for designers.
+                </h2>
+
+                <div class="front__sections">
+                    <div class="front__section">
+                        <h3>
+                            <svg><use xlink:href="#icon-location" /></svg>
+                            Web Mapping
+                        </h3>
+                        <p>
+                            From traditional 2D mapping with tools like Leaflet and OpenLayers, to WebGL-powered 3D maps using MapboxGL and Cesium, we have the expertise to build intelligence applications that allow your users to dig deeper into their location data.
+                        </p>
+                    </div>
+                    <div class="front__section">
+                        <h3>
+                            <svg><use xlink:href="#icon-stats-dots" /></svg>
+                            Data Visualization
+                        </h3>
+                        <p>
+                            Go beyond the numbers and connect the dots. Our expertise in visualizing large amounts of data can help you see trends and gain actionable  insights from your data.
+                        </p>
+                    </div>
+                    <div class="front__section">
+                        <h3>
+                            <svg><use xlink:href="#icon-wrench" /></svg>
+                            Web Development
+                        </h3>
+                        <p>
+                            We build fast, beautiful web applications while taking an agile, human-centered approach to software development. We use the latest web technologies such as Angular, React, Sass, Python, and Node.js to build user interfaces that get out of the way and help users focus on accomplishing their mission.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        {% include footer.html %}
+        {% include analytics.html %}
+    </body>
+
+</html>
