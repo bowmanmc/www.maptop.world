@@ -41,19 +41,15 @@ footer {
     text-transform: uppercase;
 }
 
-.footer__logo {
+.footer__logo-ctr {
     padding: 1.0em 0;
 
     svg {
-        display: block;
-        fill: $clr-light;
-        max-height: $logo-mark-height / 3;
-        max-width: $logo-mark-width / 3;
-        width: 100%;
-
-        @include media($desktop) {
-            height: $logo-mark-height / 2;
-            width: $logo-mark-width / 2;
-        }
+        height: 128px;
+        width: 128px;
     }
+}
+
+use.footer__logo {
+    fill: $clr-gray-70;
 }
