@@ -1,45 +1,40 @@
 // Header component on the front page
 header {
     background-color: $clr-black;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05)), url(../images/map-forest-1024.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../images/map-forest-1024.jpg);
     background-size: cover;
     color: $clr-white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 66%;
     padding: 2.0em;
     text-align: center;
 
     @include media($desktop) {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05)), url(../images/map-forest-2048.jpg);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../images/map-forest-2048.jpg);
         text-align: left;
     }
 }
 
 .header__logo {
-    flex: 0.66;
+    text-align: right;
+    width: 256px;
 
     svg {
-        fill: $clr-highlight;
-        max-height: $logo-mark-height / 2;
-        max-width: $logo-mark-width / 2;
-        width: 100%;
-
-        @include media($desktop) {
-            height: $logo-mark-height / 1.5;
-            max-height: $logo-mark-height / 1.5;
-            max-width: $logo-mark-width / 1.5;
-            width: $logo-mark-width / 1.5;
-        }
+        height: 256px;
+        width: 256px;
     }
 }
 
 .header__tagline {
-    color: $clr-highlight;
+    color: $clr-blue;
+    flex: 1;
     font-size: 2em;
     font-weight: bold;
     line-height: 1.15em;
-    text-align: center;
+    padding: 0 1.0em;
+    padding-top: 100px;
+    text-align: left;
     text-shadow: 0 0 32px $clr-black;
 
     @include media($desktop) {
