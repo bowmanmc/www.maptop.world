@@ -23,8 +23,8 @@ catch (err) {
     console.log('    ' + err.message);
 }
 
-fs.appendFileSync(out, '\nDayton Geoinformatics Website');
-fs.appendFileSync(out, '\n=============================');
+fs.appendFileSync(out, '\nMapTop Website');
+fs.appendFileSync(out, '\n==============');
 fs.appendFileSync(out, '\nName: ' + pkg.name);
 fs.appendFileSync(out, '\nDescription: ' + pkg.description);
 fs.appendFileSync(out, '\nURL: ' + pkg.repository.url);
