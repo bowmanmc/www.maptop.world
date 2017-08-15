@@ -47,7 +47,6 @@ use.header__logo {
         font-size: 3.0em;
         padding: 1.0em;
         padding-top: 100px;
-        text-align: left;
     }
 }
 
@@ -55,10 +54,6 @@ $clr-btn-base: $clr-orange;
 $btn-txt-size: 42px;
 
 .header__signup {
-
-    @include media($desktop) {
-        text-align: right;
-    }
 
     button {
         background: $clr-btn-base;
