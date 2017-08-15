@@ -48,3 +48,37 @@ use.header__logo {
         text-align: left;
     }
 }
+
+$clr-btn-base: $clr-orange;
+$btn-txt-size: 42px;
+
+.header__signup {
+
+    @include media($desktop) {
+        text-align: right;
+    }
+
+    button {
+        background: $clr-btn-base;
+        background-image: linear-gradient(to bottom, lighten($clr-btn-base, 5%), $clr-btn-base);
+        border: none;
+        border-radius: 0.15em;
+        box-shadow: 0 0 32px $clr-black;
+        color: $clr-white;
+        cursor: pointer;
+        font-size: $btn-txt-size;
+        margin: 2.0em 1.0em;
+        padding: 0.5em 0.75em;
+
+        &:hover {
+            background-image: linear-gradient(to bottom, lighten($clr-btn-base, 10%), lighten($clr-btn-base, 0%));
+        }
+    }
+
+    svg {
+        fill: $clr-gray-90;
+        height: 35px;
+        margin-right: 0.25em;
+        width: 42px;
+    }
+}
