@@ -18,8 +18,8 @@ header {
 
 .header__logo-ctr {
     svg {
-        height: 256px;
-        width: 256px;
+        height: 128px;
+        width: 128px;
 
         @include media($desktop) {
             height: 372px;
@@ -35,16 +35,16 @@ use.header__logo {
 .header__tagline {
     color: $clr-blue;
     flex: 1;
-    font-size: 2em;
+    font-size: 2.0em;
     font-weight: bold;
     line-height: 1.15em;
-    padding: 0 1.0em;
-    padding-top: 100px;
+    padding: 1.0em;
     text-align: center;
     text-shadow: 0 0 32px $clr-black;
 
     @include media($desktop) {
         font-size: 3.0em;
+        padding-top: 100px;
         text-align: left;
     }
 }

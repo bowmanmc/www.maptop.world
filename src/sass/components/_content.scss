@@ -10,7 +10,11 @@ main {
     max-width: $desktop-width;
 
     h2 {
-        text-align: center;
+        text-align: left;
+
+        @include media($desktop) {
+            text-align: center;
+        }
     }
 
     h1,
