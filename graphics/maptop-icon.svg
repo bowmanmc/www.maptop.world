@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Layer1">
+        <g transform="matrix(0.999627,0,0,0.999627,-287.797,-214.511)">
+            <path d="M800,726.782L287.809,726.782L287.809,214.591L800,214.591L800,726.782ZM299.814,226.596L299.814,714.778L787.996,714.778L787.996,226.596L299.814,226.596Z" style="fill:rgb(177,229,217);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0,34.2661)">
+            <g id="Mountain">
+                <g transform="matrix(1.71429,0,0,1.3727,-45.7143,-44.5022)">
+                    <path d="M176,230.569L213.333,300.505L288,300.505L213.333,160.634L176,230.569Z" style="fill:rgb(130,201,185);"/>
+                </g>
+                <path d="M463.882,376.5L315.451,376.5L192,191.324L79.882,359.5L148.333,359.5L159.667,376.5L48.118,376.5L192,160.676L256,256.676L320,160.676L463.882,376.5ZM266.216,272L324.549,359.5L432.118,359.5L320,191.324C302.072,218.216 284.144,245.108 266.216,272Z" style="fill:rgb(177,229,217);"/>
+            </g>
+            <g id="Point" transform="matrix(1,0,0,1,-0.0864955,-1)">
+                <g transform="matrix(1.64343,0,0,-1.31596,-33.1575,371.389)">
+                    <path d="M176,230.569L138.667,160.634L213.333,160.634L176,230.569Z" style="fill:rgb(241,96,62);"/>
+                </g>
+                <g transform="matrix(-1.64343,0,0,-1.31596,545.331,371.389)">
+                    <path d="M176,230.569L176,160.634L213.333,160.634L176,230.569Z" style="fill:rgb(217,71,38);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
