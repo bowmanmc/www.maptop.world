@@ -1,7 +1,9 @@
 // Header component on the front page
 header {
     background-color: $clr-black;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../images/map-forest-1024.jpg);
+    //background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../images/map-forest-1024.jpg);
+    //background-image: url(../images/kelli-tungay-309722.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.45)), url(../images/lauren-mancke-60627.jpg);
     background-size: cover;
     color: $clr-white;
     min-height: 66%;
@@ -9,7 +11,7 @@ header {
     text-align: center;
 
     @include media($desktop) {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../images/map-forest-2048.jpg);
+        //background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../images/map-forest-2048.jpg);
         display: flex;
         flex-direction: row;
         padding: 2.0em;
@@ -51,7 +53,7 @@ use.header__logo {
 }
 
 $clr-btn-base: $clr-orange;
-$btn-txt-size: 42px;
+$btn-txt-size: 24px;
 
 .header__signup {
 
@@ -59,17 +61,13 @@ $btn-txt-size: 42px;
         background: $clr-btn-base;
         background-image: linear-gradient(to bottom, lighten($clr-btn-base, 5%), $clr-btn-base);
         border: none;
-        border-radius: 0.15em;
+        border-radius: 0.25em;
         box-shadow: 0 0 32px $clr-black;
         color: $clr-white;
         cursor: pointer;
-        font-size: $btn-txt-size / 2;
+        font-size: $btn-txt-size;
         margin: 2.0em 1.0em;
-        padding: 0.5em 0.75em;
-
-        @include media($desktop) {
-            font-size: $btn-txt-size;
-        }
+        padding: 0.25em 0.5em;
 
         &:hover {
             background-image: linear-gradient(to bottom, lighten($clr-btn-base, 10%), lighten($clr-btn-base, 0%));
@@ -78,13 +76,10 @@ $btn-txt-size: 42px;
 
     svg {
         fill: $clr-white;
-        height: 17px;
+        float: left;
+        height: 35px;
+        margin: 0.75em;
         margin-right: 0.25em;
-        width: 21px;
-
-        @include media($desktop) {
-            height: 35px;
-            width: 42px;
-        }
+        width: 42px;
     }
 }
